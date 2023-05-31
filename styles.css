@@ -103,6 +103,12 @@ img {
     color: var(--color-white)
 }
 
+.btn-secondary {
+    background: var(--color-bg);
+    color: var(--color-warning);
+    border-color: var(--color-bg);
+}
+
 /* ========== NAVBAR ======= */
 
 nav {
@@ -259,8 +265,8 @@ header {
 /*=== Services === */
 .services {
     margin-top: 10rem;
-    color: #e37954;
 }
+
 
 .services_container {
     display: grid;
@@ -270,14 +276,14 @@ header {
 
 
 .service {
-    background-color: var(--color-bg2);
+    background-color: var(--color-warning);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
 .service:hover {
-    background: var(--color-bg1);
+    background: var(--color-bg2);
     border-color: var(--color-bg1);
 }
 
