@@ -73,7 +73,7 @@ h4 {
 }
 
 a {
-    color: var(--color-bg2);
+    color: var(--color-bg);
 }
 
 img {
@@ -112,7 +112,7 @@ img {
 /* ========== NAVBAR ======= */
 
 nav {
-    background: var(--color-bg);
+    background: var(--color-bg2);
     width: 100vw;
     height: 3.5rem;
     position: fixed;
@@ -124,7 +124,7 @@ nav {
 
 /* change navbar style when scroll using js */
 .window-scroll {
-    background: var(--color-bg);
+    background: var(--color-bg2);
     box-shadow: 0 0.4rem 1rem #353535;
 }
 
@@ -161,9 +161,10 @@ header {
     position: relative;
     top: 5rem;
     overflow: hidden
-    height: 90vh;
+    height: 100vh;
+    padding-top: 3rem;
     margin-bottom: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
     color: var(--color-warning);
 }
 
@@ -430,7 +431,7 @@ footer ul li a:hover {
     text-align: center;
     margin-top: 4rem;
     padding: 1.2rem 0;
-    border-top: 1px solid var(--color-bg1);
+    border-top: 1px solid var(--color-bg);
 }
 
 
