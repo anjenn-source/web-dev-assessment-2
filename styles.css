@@ -148,11 +148,12 @@ nav button {
 .nav_menu a {
     font-size: 0.9rem;
     transition: var(--transition);
+    font-weight: 400;
 }
 
 
 .nav_menu a:hover {
-    color: var(--color-bg2)
+    color: var(--color-warning)
 }
 
 /* ==== HEADER === */
