@@ -190,8 +190,7 @@ header {
 /*=== Categories === */
 .categories {
     background: var(--color-bg);
-    height: 32rem;
-
+    height: 40rem;
 }
 
 .categories h1 {
@@ -271,6 +270,7 @@ header {
 
 
 .services_container {
+    margin-top: -1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
