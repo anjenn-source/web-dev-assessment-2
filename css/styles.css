@@ -406,7 +406,7 @@ footer {
 }
 
 .footer__container > div h4 {
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer__1 p {
@@ -430,8 +430,7 @@ footer ul li a:hover {
 
 .footer__copyright {
     text-align: center;
-    margin-top: 4rem;
-    padding: 1.2rem 0;
+    padding: 0.5rem 0;
     border-top: 1px solid var(--color-bg);
 }
 
